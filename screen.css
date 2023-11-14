@@ -1,6 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
 body{
     background-color: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #0071BC;
     margin: 0;
     min-height: 100vh;
     position: relative;
@@ -22,7 +28,6 @@ header {
     color: #0071BC;
     padding: 10px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     position: relative;
 }
@@ -37,21 +42,25 @@ header::after {
     border-bottom: 2px solid #0071BC;
 }
 
+.logo-container {
+    display: flex; 
+    margin-left: 0.75vw;
+    margin-right: 1vw;
+    align-items: center;
+    
+}
+
 .logo{
-    width: 80px;
-    padding-right: 0px;
-    margin-right: 0px;
+    width: 95px;
     margin-left: 10px;
-    position: left;
 
 }
 h1 a{
-    font-size: 64px;
+    font-size: 65px;
     text-decoration: none;
     color: #0071BC;
-    margin-left: 0px;
-    
-
+    margin: 0;
+    padding: 0;
 } 
 
 .page-nav {
@@ -62,9 +71,11 @@ h1 a{
 }
 
 .page-nav li {
-    margin-right: 150px;
-    font-size: 18px;
-    color:#0071BC
+    padding:0;
+    margin-right: 8vw;
+    font-size: 14px;
+    position: center;
+    color:#0071BC;
 }
 
 .page-nav a {
@@ -92,4 +103,8 @@ main {
     position: fixed;
     left: 0;
     bottom: 0;
+}
+
+.how-to {
+    color: #5DBDFF
 }
