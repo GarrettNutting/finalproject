@@ -28,9 +28,11 @@ header {
     color: #0071BC;
     padding: 10px;
     display: flex;
+    justify-content: flex-start;
     align-items: center;
     position: relative;
 }
+
 
 header::after {
     content: "";
@@ -45,7 +47,7 @@ header::after {
 .logo-container {
     display: flex; 
     margin-left: 0.75vw;
-    margin-right: 1vw;
+    margin-right: 5vw;
     align-items: center;
     
 }
@@ -61,6 +63,7 @@ h1 a{
     color: #0071BC;
     margin: 0;
     padding: 0;
+    margin-right: 7vw;
 } 
 
 .page-nav {
@@ -71,10 +74,10 @@ h1 a{
 }
 
 .page-nav li {
+    font-weight: bold; 
     padding:0;
-    margin-right: 8vw;
-    font-size: 14px;
-    position: center;
+    margin-right: 3vw;
+    font-size: 18px;
     color:#0071BC;
 }
 
