@@ -78,16 +78,11 @@ h1 a{
     padding:0;
     margin-right: 3vw;
     font-size: 18px;
-    color:#0071BC;
-}
-
-.page-nav li.login-item {
-    margin-right: 1vw;
 }
 
 .page-nav a {
     text-decoration: none;
-    color: #0071BC;
+    color: #0071BC
 }
 
 a:hover {
@@ -116,29 +111,25 @@ main {
 
 .tweet-container{
     display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-bottom: 75px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+
 }
 
 
 .twitter-tweet {
-    flex: 1;
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    max-width: calc(33.33% - 20px);
-    box-sizing: border-box; 
-    height: auto;
-    overflow: hidden;
     align-self: flex-start;
-}
-
-.twitter-tweet p {
-    flex: 1;
-    margin: 0;
+    transform: scale(0.75);
 }
 
 
+.cyber-news {
+    margin-bottom: 0px;
+    margin-top: 50px;
+    
+}
+
+.how-to {
+    margin-top: 50px;
+}
