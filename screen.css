@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -10,10 +10,9 @@ body{
     margin: 0;
     min-height: 100vh;
     position: relative;
-   
 }
 
-body::after{
+body::after {
     content: "";
     display: block;
     position: absolute;
@@ -33,7 +32,6 @@ header {
     position: relative;
 }
 
-
 header::after {
     content: "";
     display: block;
@@ -49,15 +47,14 @@ header::after {
     margin-left: 0.75vw;
     margin-right: 5vw;
     align-items: center;
-    
 }
 
-.logo{
+.logo {
     width: 95px;
     margin-left: 10px;
-
 }
-h1 a{
+
+h1 a {
     font-size: 65px;
     text-decoration: none;
     color: #0071BC;
@@ -75,14 +72,14 @@ h1 a{
 
 .page-nav li {
     font-weight: bold; 
-    padding:0;
+    padding: 0;
     margin-right: 3vw;
     font-size: 18px;
 }
 
 .page-nav a {
     text-decoration: none;
-    color: #0071BC
+    color: #0071BC;
 }
 
 a:hover {
@@ -106,28 +103,25 @@ main {
 }
 
 .how-to {
-    color: #5DBDFF
+    color: #5DBDFF;
 }
 
-.tweet-container{
+.tweet-container {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     margin-top: 0;
-
 }
-
 
 .twitter-tweet {
     align-self: stretch;
-    transform: scale(0.75);
+    transform: scale(1);
+    margin-bottom: 20px;
 }
-
 
 .cyber-news {
     margin-bottom: 0px;
     margin-top: 50px;
-    
 }
 
 .how-to {
@@ -228,3 +222,46 @@ body.quiz-page {
 .form-group button:hover {
     background-color: #ddd;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .logo-container {
+      margin: 0;
+    }
+  
+    h1 a {
+      margin: 0;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+  
+    .page-nav {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 10px;
+    }
+  
+    .page-nav li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .tweet-container {
+      flex-direction: column;
+    }
+  
+    .twitter-tweet {
+      transform: scale(1);
+      margin-bottom: 20px;
+    }
+  }
