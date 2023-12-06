@@ -36,7 +36,89 @@
           d: "Disable antivirus software temporarily to speed up the download",
         },
         correctAnswer: "c"
-      }
+      },
+
+      {
+        question: "4. How can you verify the legitimacy of a hyperlink in an email?",
+        answers: {
+          a: "Hover over the link to preview the destination URL before clicking",
+          b: "Click on it to see where it leads",
+          c: "Ignore hyperlinkins in emails", 
+          d: "Share the link on social media for verification",
+        },
+        correctAnswer: "a"
+      },
+
+      {
+        question: "5. What is pretexting in the context of social engineering?",
+        answers: {
+          a: "A form of texting.",
+          b: "Creating a fabricated scenario to manipulate an individual into divluging confidential information",
+          c: "Setting up a secure password",
+          d: "Engaging in social media conversations",
+        },
+        correctAnswer: "b"
+      },
+
+      {
+        question: "6. What makes spear phishing different from generic phishing?",
+        answers: {
+          a: "It involves fish",
+          b: "It targets specific individuals or organizations",
+          c: "It uses spears as hacking tools",
+          d: "It only occurs in certain geographic location",
+        },
+        correctAnswer: "b"
+      },
+
+      {
+        question: "7. What is vishing?",
+        answers: {
+          a: "A type of virtual reality fishing",
+          b: "Video-based phishing attacks",
+          c: "A form of phishing conducted over phone calls",
+          d: "A method of securing voicemails",
+        },
+        correctAnswer: "c"
+      },
+
+      {
+        question: "8. What is an insider threat?",
+        answers: {
+          a: "An individual within the organization who poses a risk by exploiting their position",
+          b: "A person with access to confidential information",
+          c: "Someone who loves social media",
+          d: "A friendly colleague",
+        },
+        correctAnswer: "a"
+      },
+
+      
+      {
+        question: "9. Why is ongoing security awareness training important?",
+        answers: {
+          a: "To slow down work processes",
+          b: "To educate individuals about evolving threats and tactics",
+          c: "To increase the number of phishing attempts",
+          d: "To discourage employees from reporting suspicious activities",
+
+        },
+        correctAnswer: "b"
+      },
+
+      
+      {
+        question: "10. How does multi-factor authentication enhance security against phishing",
+        answers: {
+          a: "It encourages more phishing attempts",
+          b: "It makes passwords unnecessary",
+          c: "It complicates the login process",
+          d: "It adds an additional layer of verification beyond passwords",
+
+        },
+        correctAnswer: "d"
+      },
+
     ];
   
     function buildQuiz() {

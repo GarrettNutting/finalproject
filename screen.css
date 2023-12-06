@@ -133,3 +133,43 @@ main {
 .how-to {
     margin-top: 50px;
 }
+
+body.quiz-page {
+    background-color: #F5F5F5;
+}
+
+#quiz {
+    padding: 20px;
+}
+
+.question {
+    margin: 25px 0;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.answers.correct {
+    color: lightgreen;
+}
+
+.answers.incorrect {
+    color: red;
+}
+
+#submit {
+    background-color: #0071BC;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#submit:hover {
+    background-color: #005687;
+}
