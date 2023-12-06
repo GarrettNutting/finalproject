@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px){
+
 body{
     background-color: #F5F5F5;
     font-family: Arial, Helvetica, sans-serif;
@@ -111,7 +113,7 @@ main {
 
 .tweet-container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     margin-top: 0;
 
@@ -119,7 +121,7 @@ main {
 
 
 .twitter-tweet {
-    align-self: flex-start;
+    align-self: stretch;
     transform: scale(0.75);
 }
 
@@ -172,4 +174,5 @@ body.quiz-page {
 
 #submit:hover {
     background-color: #005687;
+}
 }
