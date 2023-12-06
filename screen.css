@@ -115,7 +115,7 @@ main {
 
 .twitter-tweet {
     align-self: stretch;
-    transform: scale(1);
+    transform: scale(0.75);
     margin-bottom: 20px;
 }
 
