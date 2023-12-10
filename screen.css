@@ -43,7 +43,7 @@ header::after {
 }
 
 .logo-container {
-    display: flex; 
+    display: flex;
     margin-left: 0.75vw;
     margin-right: 5vw;
     align-items: center;
@@ -61,7 +61,7 @@ h1 a {
     margin: 0;
     padding: 0;
     margin-right: 7vw;
-} 
+}
 
 .page-nav {
     list-style: none;
@@ -71,7 +71,7 @@ h1 a {
 }
 
 .page-nav li {
-    font-weight: bold; 
+    font-weight: bold;
     padding: 0;
     margin-right: 3vw;
     font-size: 20px;
@@ -224,43 +224,94 @@ body.quiz-page {
       font-size: 16px;
     }
   }
-  
+ 
   @media only screen and (max-width: 768px) {
     header {
       flex-direction: column;
       align-items: center;
     }
-  
+ 
     .logo-container {
       margin: 0;
     }
-  
+ 
     h1 a {
       margin: 0;
       margin-top: 10px;
       margin-bottom: 10px;
     }
-  
+ 
     .page-nav {
       flex-direction: column;
       align-items: center;
       margin-top: 10px;
     }
-  
+ 
     .page-nav li {
       margin-right: 0;
       margin-bottom: 10px;
     }
-  
+ 
     .twitter-tweet {
       transform: scale(0.75);
       margin-bottom: 20px;
       width:100%;
       height: auto;
     }
+
+    .tweet-container {
+        flex-direction: column;
+        align-items: center;
+      }
   }
 
-#contact_body {
+  @media only screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+
+    header {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .logo-container {
+        margin-left: 0.75vw;
+        margin-right: 5vw;
+    }
+
+    h1 a {
+        font-size: 75px;
+        margin-right: 7vw;
+    }
+
+    .page-nav {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .page-nav li {
+        margin-right: 3vw;
+        margin-bottom: 0;
+    }
+
+    .tweet-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .twitter-tweet {
+        transform: scale(0.75);
+        margin-bottom: 20px;
+        width: auto;
+        height: auto;
+    }
+}
+
+  #contact_body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
