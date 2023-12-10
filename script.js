@@ -10,7 +10,7 @@
         question: "1. A colleague requests your password via email, claiming an urgent need. What should you do?",
         answers: {
           a: "Share your password immediately",
-          b: "Verify if the request with the colleague through another communication channel",
+          b: "Verify the request with the colleague through another communication channel",
           c: "Ignore the request",
           d: "Change your password without confirmation",
   
@@ -43,7 +43,7 @@
         answers: {
           a: "Hover over the link to preview the destination URL before clicking",
           b: "Click on it to see where it leads",
-          c: "Ignore hyperlinkins in emails", 
+          c: "Ignore hyperlinks in emails", 
           d: "Share the link on social media for verification",
         },
         correctAnswer: "a"
@@ -52,7 +52,7 @@
       {
         question: "5. What is pretexting in the context of social engineering?",
         answers: {
-          a: "A form of texting.",
+          a: "A form of texting",
           b: "Creating a fabricated scenario to manipulate an individual into divluging confidential information",
           c: "Setting up a secure password",
           d: "Engaging in social media conversations",
