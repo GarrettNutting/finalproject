@@ -400,3 +400,13 @@ body.quiz-page {
     text-decoration: none;
     color: #0071BC;
 }
+
+
+#resources li {
+    margin-top: 32px;
+}
+
+#resources a {
+    text-decoration: none;
+    font-weight: bold;
+}
