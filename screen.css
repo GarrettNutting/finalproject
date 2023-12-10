@@ -409,4 +409,10 @@ body.quiz-page {
 #resources a {
     text-decoration: none;
     font-weight: bold;
+    
+}
+
+#resources a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: #0071BC;
 }
