@@ -253,17 +253,17 @@ body.quiz-page {
       margin-bottom: 10px;
     }
   
-    .tweet-container {
-      flex-direction: column;
-      align-items: center;
-    }
-  
     .twitter-tweet {
       transform: scale(0.75);
       margin-bottom: 20px;
       width:100%;
       height: auto;
     }
+
+    .tweet-container {
+        flex-direction: column;
+        align-items: center;
+      }
   }
 
 
